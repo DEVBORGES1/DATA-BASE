@@ -1,0 +1,5 @@
+SELECT * FROM nota_fiscal_normalizada.produto where COD_PRODUTO IN(1, 2);
+
+UPDATE PRODUTO 
+SET VL_PRODUTO = 10
+WHERE COD_PRODUTO IN (1, 2);
